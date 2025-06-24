@@ -7,7 +7,15 @@ source /etc/profile.d/modules.sh
 #$ -l mem=512M
 
 # Set the working directory
-cd $HOME/Scratch/DFT-Screen-student
+TARGET_DIR="$HOME/Scratch/DFT-Screen-student"
+
+# Only change directory if we're not already there
+if [[ "$(pwd)" != "$TARGET_DIR" ]]; then
+    mkdir -p "$TARGET_DIR"
+    cd "$TARGET_DIR"
+fi
+
+echo "Working directory: $(pwd)"
 
 module purge
 module load beta-modules
