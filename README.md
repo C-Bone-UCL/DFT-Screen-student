@@ -87,12 +87,13 @@ The next two are harder to compute and require some additional steps. We will go
 
 Here is the link for the google colab notebook you'll use throughout the week:
 
+>You'll need to make a copy of the colab because this one is read only. Once youve copied a version into a google drive you can get started. 
+
 <p align="center">
-<a href="https://colab.research.google.com/drive/1DcrTrZM46IwcEJbGqeYHXvk-BwfBcMIc?usp=sharing">
+<a href="https://colab.research.google.com/drive/1dxqbG0pIXvv5S0hu2QrAO39LnSvxM7mj?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 </p>
-
 
 
 ## Need Help?

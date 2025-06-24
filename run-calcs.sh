@@ -7,7 +7,7 @@ source /etc/profile.d/modules.sh
 #$ -l mem=512M
 
 # Set the working directory
-#$ -wd $HOME/Scratch/DFT-Screen
+cd $HOME/Scratch/DFT-Screen-student
 
 module purge
 module load beta-modules
@@ -26,4 +26,4 @@ export PMG_VASP_PSP_DIR=$VASP_PP_PATH
 conda activate DFT-Screen-venv
 
 python scripts/run_vasp_ase.py \
-      files/TiO2_run
+      files/TiO2_polymorphs
