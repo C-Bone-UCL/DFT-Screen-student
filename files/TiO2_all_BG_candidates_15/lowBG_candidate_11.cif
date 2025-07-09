@@ -1,0 +1,47 @@
+
+data_Ti20O40
+_symmetry_space_group_name_H-M Cmcm
+_cell_length_a 14.9546
+_cell_length_b 5.2438
+_cell_length_c 9.6746
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+_symmetry_Int_Tables_number 63
+_chemical_formula_structural TiO2
+_chemical_formula_sum 'Ti20 O40'
+_cell_volume 757.6864
+_cell_formula_units_Z 20
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1 'x+1/2, -y+1/2, -z'
+  2 '-x+1/2, y+1/2, -z+1/2'
+  3 '-x+1/2, -y+1/2, -z'
+  4 '-x, y, -z+1/2'
+  5 '-x, -y, -z'
+  6 '-x, -y, z+1/2'
+  7 'x, -y, -z'
+  8 'x, y, z'
+  9 'x, y, -z-1/2'
+  10 '-x, y, z'
+  11 'x, -y, z-1/2'
+  12 'x+1/2, y+1/2, z'
+  13 '-x+1/2, -y+1/2, z+1/2'
+  14 'x+1/2, y+1/2, -z-1/2'
+  15 '-x+1/2, y+1/2, z'
+  16 'x+1/2, -y+1/2, z-1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ti Ti0 8 0.1026 0.5000 0.0000 1.0
+ Ti Ti1 8 0.2042 0.0398 0.7500 1.0
+ Ti Ti2 4 0.0000 0.0000 0.0000 1.0
+ O O3 16 0.0961 0.1760 0.5963 1.0
+ O O4 16 0.2005 0.2497 0.1250 1.0
+ O O5 8 0.0000 0.3566 0.0951 1.0
