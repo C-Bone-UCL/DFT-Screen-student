@@ -1,6 +1,8 @@
 DFT Modelling of ML Generated Structures
 =================
 
+##  UPDATE: Project Finished - vasp-install was removed to free up lfs storage (send me email if this is needed)
+
 Welcome to the weeklong summer research project! I hope this week can give a flavor of what its like to be postgrad researcher (although I myself am figuring things out every day). 
 
 I've made some google colab notebooks to help take you through the week and (hopefully) get some interesting results and new useful skills.
