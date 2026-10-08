@@ -1,0 +1,39 @@
+
+data_Ti8O16
+_symmetry_space_group_name_H-M Cmc2_1
+_cell_length_a 2.9853
+_cell_length_b 9.0422
+_cell_length_c 10.1883
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+_symmetry_Int_Tables_number 36
+_chemical_formula_structural TiO2
+_chemical_formula_sum 'Ti8 O16'
+_cell_volume 275.8333
+_cell_formula_units_Z 8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1 'x, -y, z+1/2'
+  2 'x+1/2, y+1/2, z'
+  3 '-x, -y, z+1/2'
+  4 '-x, y, z'
+  5 'x, y, z'
+  6 '-x+1/2, -y+1/2, z+1/2'
+  7 '-x+1/2, y+1/2, z'
+  8 'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ti Ti0 4 0.0000 0.3550 0.7429 1.0
+ Ti Ti1 4 0.0000 0.3648 0.0682 1.0
+ O O2 4 0.0000 0.0032 0.2100 1.0
+ O O3 4 0.0000 0.2446 0.5351 1.0
+ O O4 4 0.0000 0.2576 0.2886 1.0
+ O O5 4 0.0000 0.4121 0.9077 1.0

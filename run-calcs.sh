@@ -1,0 +1,37 @@
+#!/bin/bash -l
+source /etc/profile.d/modules.sh
+
+#$ -N optimize_TiO2
+#$ -l h_rt=6:00:00
+#$ -pe mpi 8
+#$ -l mem=512M
+
+# Set the working directory
+TARGET_DIR="$HOME/Scratch/DFT-Screen-student"
+
+# Only change directory if we're not already there
+if [[ "$(pwd)" != "$TARGET_DIR" ]]; then
+    mkdir -p "$TARGET_DIR"
+    cd "$TARGET_DIR"
+fi
+
+echo "Working directory: $(pwd)"
+
+module purge
+module load beta-modules
+module load gcc-libs/10.2.0
+module load compilers/intel/2022.2
+module load mpi/intel/2021.6.0/intel
+
+eval "$(conda shell.bash hook)"
+
+export NSLOTS=${NSLOTS:=1}
+export VASP_EXE=/path/to/your/vasp/bin/vasp_std  # your licensed VASP build
+export VASP_COMMAND="mpirun -np $NSLOTS $VASP_EXE"
+export VASP_PP_PATH=/path/to/your/potentials_PBE.54  # your group's POTCAR library
+export PMG_VASP_PSP_DIR=$VASP_PP_PATH
+
+conda activate DFT-Screen-venv
+
+python scripts/run_vasp_ase.py \
+      files/TiO2_polymorphs
